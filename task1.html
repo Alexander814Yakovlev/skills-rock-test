@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Задание 1: Основные алгоритмические задачи</h1>
+    
+    <!-- 1. Проверка на палиндром -->
+    <section>
+        <h2>1. Проверка на палиндром</h2>
+        <input type="text" id="palindromeInput" placeholder="Введите текст">
+        <button onclick="checkPalindrome()">Проверить</button>
+        <p id="palindromeResult"></p>
+    </section>
+
+    <!-- 2. FizzBuzz -->
+    <section>
+        <h2>2. FizzBuzz</h2>
+        <button onclick="runFizzBuzz()">Запустить FizzBuzz</button>
+        <div id="fizzBuzzResult" style="margin-top: 10px;"></div>
+    </section>
+
+    <!-- 3. Разбиение массива на части -->
+    <section>
+        <h2>3. Разбиение массива на части</h2>
+        <p>Элементы массива вводить через "," например 1, 2, 3 </p>
+        <input type="text" id="arrayInput" placeholder="Введите элементы массива через запятую">
+        <input type="number" id="chunkSize" placeholder="Размер группы">
+        <button onclick="splitArray()">Разбить массив</button>
+        <p id="chunkResult"></p>
+    </section>
+    <script src="./Task1_algo.js"></script>
+</body>
+</html>
